@@ -70,11 +70,13 @@ ul {
   /* المطلوب السادس هنا */
   display: flex;
   justify-content: space-around;
+  transition: cubic-bezier(1, 0, 0, 1) 1s;
 
 }
 .hobbies img:hover
 {
-  position: absolute;
-  transition: all 1s inherit;
-   opacity: 0.5;
+  
+  transition-timing-function: linear;
+  box-shadow: 10px 1px black;
+   
 }
